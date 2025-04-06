@@ -1,8 +1,8 @@
-Portal do Aluno – Java + PostgreSQL
+Portal do Aluno – Java + PostgreSQL -
 Este projeto é um portal de aluno desenvolvido em Java, que permite aos usuários realizarem desafios matemáticos, resolverem operações aritméticas e registrarem seu desempenho.
 Todos os dados coletados (como nome, idade, sexo, nota de avaliação, quantidade de acertos e operações realizadas) são armazenados em um banco de dados PostgreSQL.
 ---
-#Funcionalidades
+Funcionalidades
 - Cadastro de aluno  
 - Desafios matemáticos com diferentes níveis de dificuldade  
 - Calculadora com suporte a:
@@ -13,13 +13,12 @@ Todos os dados coletados (como nome, idade, sexo, nota de avaliação, quantidad
 - Consulta de dados cadastrados  
 - Registro e atualização automática dos dados no banco de dados  
 ---
-#Tecnologias Utilizadas
+Tecnologias Utilizadas
 - *IntelliJ IDEA* – Ambiente de desenvolvimento + integração com banco de dados  
 - *Java* – Linguagem de programação principal do projeto  
 - *PostgreSQL* – Banco de dados relacional utilizado para armazenar os dados  
 - *JDBC* – Biblioteca para conectar o Java ao banco de dados PostgreSQL  
   - Toda a comunicação com o banco de dados via JDBC está centralizada na classe `AlunoDAO`
-
 ---
 
 Feito por: Guilherme Bello
