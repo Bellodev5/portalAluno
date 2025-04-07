@@ -1,0 +1,60 @@
+INSTRUÇÕES DE INSTALAÇÃO E USO - Portal do Aluno
+=================================================
+
+REQUISITOS
+----------
+Softwares instalados:
+
+- Java JDK 17 ou superior
+- PostgreSQL - PG Admin
+- IDEA para Java (O código foi programa no IntelliJ IDEA)
+- Git (opcional, para clonar o repositório)
+
+PASSO A PASSO
+-------------
+
+1. CLONAR ou BAIXAR O REPOSITÓRIO
+
+Clonar o repositório via terminal usando o Git:
+
+    git clone https://github.com/Bellodev5/portalAluno.git
+
+Ou fazer o download do projeto como arquivo ZIP pelo próprio GitHub.
+
+2. CONFIGURAR O BANCO DE DADOS POSTGRESQL
+
+- Crie um banco de dados chamado: portal_aluno
+- Copie o script SQL para criar a tabela:
+
+    CREATE TABLE aluno (
+        id SERIAL PRIMARY KEY,
+        nome VARCHAR(100) NOT NULL,
+        sexo CHAR(1),
+        idade INT,
+        nota INT,
+        perguntas_acertadas INT,
+        total_calculos INT
+    );
+
+3. CONFIGURAR DADOS DE CONEXÃO
+
+No arquivo `ConexaoBanco.java`, verifique se as credenciais estão corretas para o seu ambiente local:
+
+    private static final String URL = "jdbc:postgresql://localhost:5432/portal_aluno"; // Talvez seja necessário mudar a URL dependendo do ambiente que for executado
+    private static final String USUARIO = "postgres";
+    private static final String SENHA = "5432";
+
+Modifique `USUARIO`, `SENHA` e o número no `LOCALHOST` conforme seu PostgreSQL.
+
+4. COMPILAR E EXECUTAR
+
+Abra o projeto em sua IDE e localize a classe principal (Nesse programa o código é executado na classe `Run`).
+
+Execute a aplicação e siga as instruções exibidas no console para utilizar o portal:
+- Cadastro de aluno
+- Resolução de desafios matemáticos
+- Avaliação do portal
+- Uso da calculadora
+-----
+
+Esses dados são persistidos no banco de dados PostgreSQL.
