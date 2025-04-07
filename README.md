@@ -20,7 +20,9 @@ Tecnologias Utilizadas
 - *JDBC* – Biblioteca para conectar o Java ao banco de dados PostgreSQL  
   - Toda a comunicação com o banco de dados via JDBC está centralizada na classe `AlunoDAO`
 ---
-
+Documentação
+Para instruções de instalação, configuração do banco e uso, consulte o arquivo `INSTRUCOES.txt` incluído no repositório.
+---
 Feito por: Guilherme Bello
 / Jovem Aprendiz – Portobello Group
 / Técnico em Desenvolvimento de Sistemas (em formação)
