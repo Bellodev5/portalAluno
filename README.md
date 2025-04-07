@@ -1,6 +1,6 @@
-Portal do Aluno – Java + PostgreSQL -
-Este projeto é um portal de aluno desenvolvido em Java, que permite aos usuários realizarem desafios matemáticos, resolverem operações aritméticas, registrarem seu desempenho e avaliar o portal.
-Todos os dados coletados (como nome, idade, sexo, nota de avaliação, quantidade de acertos e operações realizadas) são armazenados em um banco de dados PostgreSQL.
+**Portal do Aluno – Java + PostgreSQL**  
+Este projeto é um portal de aluno desenvolvido em Java, que permite aos usuários realizarem desafios matemáticos, resolverem operações aritméticas, registrarem seu desempenho e avaliar o portal. Todos os dados coletados (como nome, idade, sexo, nota de avaliação, quantidade de acertos e operações realizadas) são armazenados em um banco de dados PostgreSQL.
+
 ---
 Funcionalidades
 - Cadastro de aluno  
