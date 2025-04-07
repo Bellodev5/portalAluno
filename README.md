@@ -21,7 +21,8 @@ Tecnologias Utilizadas
   - Toda a comunicação com o banco de dados via JDBC está centralizada na classe `AlunoDAO`
 ---
 Documentação
-Para instruções de instalação, configuração do banco e uso, consulte o arquivo `INSTRUCOES.txt` incluído no repositório.
+Para instruções de instalação, configuração do banco e uso completo, consulte o arquivo `INSTRUCOES.txt` incluído neste repositório.
+
 ---
 Feito por: Guilherme Bello
 / Jovem Aprendiz – Portobello Group
