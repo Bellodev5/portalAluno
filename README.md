@@ -22,9 +22,9 @@ Tecnologias Utilizadas
 ---
 
 Feito por: Guilherme Bello
-📌 Jovem Aprendiz – Portobello Group
-🎓 Técnico em Desenvolvimento de Sistemas (em formação)
-📞 Telefone: (47) 99146-1399
-✉️ Email: guiilhermebello2@gmail.com
+/ Jovem Aprendiz – Portobello Group
+/ Técnico em Desenvolvimento de Sistemas (em formação)
+/ Telefone: (47) 99146-1399
+/ Email: guiilhermebello2@gmail.com
 
 ---
