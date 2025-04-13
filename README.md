@@ -25,10 +25,11 @@ Documentação
 -Para instruções de instalação, configuração do banco e uso completo, consulte o arquivo `INSTRUCOES.txt` incluído neste repositório.
 
 ---
-Feito por: Guilherme Bello
-/ Jovem Aprendiz – Portobello Group
-/ Técnico em Desenvolvimento de Sistemas (em formação)
-/ Telefone: (47) 99146-1399
-/ Email: guiilhermebello2@gmail.com
+
+**Feito por: Guilherme Bello**  
+/ Jovem Aprendiz – Portobello Group  
+/ Técnico em Desenvolvimento de Sistemas (em formação)  
+/ Telefone: (47) 99146-1399  
+/ Email: guiilhermebello2@gmail.com  
 
 ---
