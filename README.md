@@ -21,6 +21,7 @@ Tecnologias Utilizadas
   - Toda a comunicação com o banco de dados via JDBC está centralizada na classe `AlunoDAO`
 ---
 Conceitos Importantes
+
 Neste projeto, adotamos os princípios da **[Programação Orientada a Objetos (POO)](./POO-no-Projeto.md)** para organizar e estruturar o código. Essa abordagem garante uma maior modularidade, reutilização e escalabilidade. Confira a documentação para entender como conceitos como encapsulamento, herança, polimorfismo e abstração são aplicados no Portal Aluno.
 
 ---
