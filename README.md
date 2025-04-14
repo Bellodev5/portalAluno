@@ -22,12 +22,12 @@ Tecnologias Utilizadas
 ---
 Conceitos Importantes
 
-Neste projeto, adotamos os princípios da **[Programação Orientada a Objetos (POO)](./POO-no-Projeto.md)** para organizar e estruturar o código. Essa abordagem garante uma maior modularidade, reutilização e escalabilidade. Confira a documentação para entender como conceitos como encapsulamento, herança, polimorfismo e abstração são aplicados no Portal Aluno.
+Neste projeto, adotamos os princípios da **[Programação Orientada a Objetos (POO)](./POO-no-Projeto.md)** para organizar e estruturar o código. Essa abordagem garante uma maior modularidade, reutilização e escalabilidade. Confira a documentação para entender como conceitos como encapsulamento, herança e abstração são aplicados no Portal Aluno.
 
 ---
 Documentação
 
--Para instruções de instalação, configuração do banco e uso completo, consulte o arquivo `INSTRUCOES.txt` incluído neste repositório.
+-Para instruções de instalação, configuração do banco e uso completo, consulte o arquivo `[INSTRUCOES.txt] (./INSTRUCOES.txt)` incluído neste repositório.
 
 ---
 
