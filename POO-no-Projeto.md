@@ -41,6 +41,20 @@ public String toString() {
 ✅ **O que ele reforça?**  
 Esse método exibe as informações do cilindro sem que a classe principal precise saber como os cálculos são feitos. O encapsulamento permite que a classe Cilindro controle como seus dados são exibidos.
 
+🔒 **Proteção dos dados**
+```java
+private double raio;
+private double altura;
+
+public Cilindro(double raio, double altura) {
+    this.raio = raio;
+    this.altura = altura;
+}
+```
+Proteção de dados: As variáveis raio e altura são declaradas como private. Isso significa que elas não podem ser acessadas diretamente de fora da classe. Para manipular ou acessar esses dados, é necessário usar os métodos públicos da classe (como areaTotalCilindro e volumeCilindro).
+Controle de acesso: A classe oferece um controle mais rigoroso sobre os dados. O programador não pode alterar os valores de raio ou altura diretamente, evitando que esses valores sejam modificados de forma inadequada.
+
+
 🧠 **Classe Principal**
 
 ```java
@@ -54,7 +68,7 @@ System.out.println(cilindro.toString());
 ```
 
 ✅ **Encapsulamento aplicado**:  
-A classe principal apenas coleta os dados e usa os métodos públicos da classe Cilindro. Não há necessidade de duplicar ou entender a lógica dos cálculos. Isso garante o princípio da responsabilidade única: a classe principal apenas controla o fluxo, e a Cilindro realiza os cálculos.
+A classe principal apenas coleta os dados e usa os métodos públicos da classe Cilindro. Não há necessidade de duplicar ou entender a lógica dos cálculos. Isso garante o princípio da responsabilidade única: a classe principal apenas controla o fluxo, e a Cilindro realiza os cálculos. E através da proteção de dados ao tornar privado os dados como o raio e altura, permite que o código se torna mais seguro e de fácil manutenção.
 
 ## 📌 **Abstração - Aprofundando o conceito**
 
