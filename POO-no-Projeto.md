@@ -190,4 +190,4 @@ Tanto no exemplo do Cilindro quanto no exemplo de Pessoa e Aluno, vemos:
 - Um método próprio (`exibirDadosAluno`) que combina herança + encapsulamento.
 - A abstração, que se faz presente por exemplo, quando a classe `Cilindro` oculta a complexidade dos cálculos e expõe apenas os métodos necessários para que o programador interaja de forma simples, sem precisar entender os detalhes da implementação.
 
-```
+
