@@ -27,7 +27,7 @@ Neste projeto, adotamos os princípios da **[Programação Orientada a Objetos (
 ---
 Documentação
 
--Para instruções de instalação, configuração do banco e uso completo, consulte o arquivo `[INSTRUCOES.txt] (./INSTRUCOES.txt)` incluído neste repositório.
+-Para instruções de instalação, configuração do banco e uso completo, consulte o arquivo `[INSTRUCOES.txt]` incluído neste repositório.
 
 ---
 
